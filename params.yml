@@ -1,0 +1,4 @@
+nfcore_demo_opts: '-resume -profile docker'
+nfcore_demo_params_file: 'params.yml' # Generate with `nf-core launch`
+nfcore_demo_samplesheet: 'input.csv' # The samplesheet
+nfcore_demo_add_config: 'nextflow.config' # Set configuration, e.g. resources, for nf-core/demo
